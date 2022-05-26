@@ -10,7 +10,6 @@ function progres(){
          time  = addSecond(time);
         
         timeElement.innerHTML = `${stringfy(time.hour)}:${stringfy(time.minute)}:${stringfy(time.second)}`
-        console.log(addSecond(time))
     }, 1000)
 
 }
